@@ -8,7 +8,19 @@
     width: 100%;
 }
 
-.tall-section {
-    height: 1000px; /* Adjust height as necessary to ensure scrolling */
+.section {
+    height: 700px; /* Adjust height as necessary */
     background-color: #e9ecef; /* Change as needed */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    margin-top: 0;
+}
+
+/* Extra style for the Back to Top link */
+a[href="#top"] {
+    display: block;
+    margin-top: 20px;
 }
