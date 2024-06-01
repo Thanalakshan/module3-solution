@@ -1,0 +1,14 @@
+/* Ensure the dropdown menu takes up the entire width in mobile view */
+.navbar-nav {
+    width: 100%;
+    background-color: #f8f8f8; /* Change as needed */
+}
+
+.menu-item {
+    width: 100%;
+}
+
+.tall-section {
+    height: 1000px; /* Adjust height as necessary to ensure scrolling */
+    background-color: #e9ecef; /* Change as needed */
+}
