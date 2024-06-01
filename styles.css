@@ -19,6 +19,13 @@
     margin-top: 0;
 }
 
+/* Border and color fill for paragraphs */
+.section .content {
+    border: 2px solid #333; /* Change border color as needed */
+    background-color: #f0f0f0; /* Change background color as needed */
+    padding: 15px;
+}
+
 /* Extra style for the Back to Top link */
 a[href="#top"] {
     display: block;
