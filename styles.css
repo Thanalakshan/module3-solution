@@ -31,3 +31,8 @@ a[href="#top"] {
     display: block;
     margin-top: 20px;
 }
+
+/* Custom styles for the navbar toggle button to make it look like a hamburger menu */
+.navbar-toggle .icon-bar {
+    background-color: #333; /* Change color as needed */
+}
