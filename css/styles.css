@@ -9,10 +9,27 @@
 }
 
 .section {
-    height: 700px; /* Adjust height as necessary */
-    background-color: #e9ecef; /* Change as needed */
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: #333; /* Text color for better readability */
+}
+
+/* Background colors for each content area */
+#chicken .content-area {
+    background-color: #ffe5e5; /* Light red for Chicken */
+}
+
+#beef .content-area {
+    background-color: #e5ffe5; /* Light green for Beef */
+}
+
+#sushi .content-area {
+    background-color: #e5e5ff; /* Light blue for Sushi */
+}
+
+.section .content-area {
+    padding: 15px;
+    border-radius: 5px; /* Optional: for rounded corners */
 }
 
 .section h3 {
@@ -21,8 +38,8 @@
 
 /* Border and color fill for paragraphs */
 .section .content {
-    border: 2px solid #333; /* Change border color as needed */
-    background-color: #f0f0f0; /* Change background color as needed */
+    border: 2px solid #333; /* Border color */
+    background-color: #f0f0f0; /* Background color */
     padding: 15px;
 }
 
@@ -30,6 +47,7 @@
 a[href="#top"] {
     display: block;
     margin-top: 20px;
+    color: #000; /* Link color */
 }
 
 /* Custom styles for the navbar toggle button to make it look like a hamburger menu */
